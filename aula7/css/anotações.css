@@ -1,0 +1,46 @@
+
+ /* permite escolher a família tipográfica que queremos usar */
+    font-family: Arial, Helvetica, sans-serif;
+
+/* Permite definir o tamanho tipográfico */
+    font-size: 23px;
+
+/* Define o estilo de fonte. italic, normal e oblique. */
+    font-style: normal;
+
+/* Define o peso da fonte Bold, lighter, normal, tambem pode receber um valor numérico,
+ que é incrementado de 100 em 100 */
+    font-weight: 500;
+
+/* Permite definir o alinhamento do texto. Center, left, right, inherit e justify. */
+    text-align: justify;
+
+/* Permite escolher um tipo de decoração para o texto. Line-throug, underline, overline e none */
+    text-decoration: underline;
+
+/* Permite definir a altura de cada linha do textos */    
+    line-height: 25px
+
+/* em html */
+<a href= '' ><img src= '' ></a>
+
+/* é possivel atribuir uma class na TAG <img> e alterar o tamanho do icone, altura e largura
+dentro do arquivo ''style.css'' */
+
+/*em html  */
+<a href= '' ><img class= 'icon' src= '' ></a>
+
+/* em css */
+.icon{
+    width 50px;
+    height: 50px;
+}
+
+/* para botar um FavIcon é necessário inserir dentro da TAG <head> a TAG <link> indicando o FavIcon*/
+
+/* em html */
+<link rel= 'shortcut icon' src= '' > 
+
+
+
+
